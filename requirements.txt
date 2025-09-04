@@ -1,0 +1,15 @@
+uvicorn==0.22.0
+streamlit==1.26.0
+python-dotenv==1.0.0
+pydantic==1.10.12
+openai>=1.0.0
+httpx==0.24.0
+langchain==0.3.27
+autogen-agentchat==0.7.4
+autogen-ext[openai]==0.7.4
+faiss-cpu==1.7.2  # optional; may fail to build on some platforms. If install fails, embeddings fallback will be used.
+chromadb==0.3.29   # fallback vectorstore if FAISS unavailable
+spacy==3.7.0
+python-multipart==0.0.6
+requests==2.31.0
+pytest==7.4.0
